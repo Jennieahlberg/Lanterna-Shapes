@@ -2,8 +2,8 @@ package com.company;
 
 import java.util.List;
 
-public abstract class Shape {
+public interface Shape {
 
-    public abstract List<Point>draw();
+   List<Point>draw();
 
 }

@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
 
     private Point start;
     private Point end;
